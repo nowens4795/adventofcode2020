@@ -10,6 +10,11 @@ print(expenses)
 
 sum_2020 = tuple() # this will hold the found values
 
+"""
+A nested for loop would be easier to write, but would result in a lot of
+unnecessary iterations. I wanted to find something that would be more efficient.
+"""
+
 for i, first_num in enumerate(expenses): # starting with smallest number
     print(f'FIRST: {first_num}')
     j = len(expenses) - 1 # end of list
